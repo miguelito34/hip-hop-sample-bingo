@@ -28,3 +28,20 @@ h1 {
     background-color: #ffa500;
     color: #fff;
 }
+
+#banner {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ff0;
+    border: 1px solid #000;
+    display: none;
+    font-size: 24px;
+}
+
+#banner.hidden {
+    display: none;
+}
+
+#banner.visible {
+    display: block;
+}
